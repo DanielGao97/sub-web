@@ -265,22 +265,23 @@ export default {
           Surge2: "surge&ver=2",
         },
         customBackend: {
-          "guihui.tk自用版": "https://guihui.tk/sub?",
-	   "heroku自用版": "https://mysubweb.herokuapp.com/sub?",
-          "sub-beta.vercel.app": "https://sub-beta.vercel.app/sub?",
-          "subcon.dlj.tf(subconverter作者提供-稳定)": "https://subcon.dlj.tf/sub?",
+          "guihui.tk 本地版": "https://guihui.tk/sub?",
+          "subcon.heroku(sub自用版)":
+            "https://mysubweb.herokuapp.com/sub?",
+          "subconverter-web.now.sh(subconverter作者提供2-稳定)":
+            "https://subconverter-web.now.sh/sub?",
+          "subconverter.herokuapp.com(subconverter作者提供3-稳定)":
+            "https://subconverter.herokuapp.com/sub?",
+          "sub.id9.cc(品云提供-稳定)": "https://sub.id9.cc/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
-          "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
-          "sub.id9.cc(品云转换)": "https://sub.id9.cc/sub?",
+          "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?"
         },
         backendOptions: [
           { value: "https://guihui.tk/sub?" },
-	  { value: "https://mysubweb.herokuapp.com/sub?" },
-          { value: "https://sub-beta.now.sh/sub?" },
-          { value: "https://subcon.dlj.tf/sub?" },
-          { value: "https://api.dler.io/sub?" },
-          { value: "https://api.wcc.best/sub?" },
-          { value: "https://sub.id9.cc/sub?" },
+          { value: "https://mysubweb.herokuapp.com/sub?" },
+          { value: "https://subconverter-web.now.sh/sub?" },
+          { value: "https://subconverter.herokuapp.com/sub?" },
+          { value: "https://api.wcc.best/sub?" }
         ],
         remoteConfig: [
           {
