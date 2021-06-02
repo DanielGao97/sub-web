@@ -269,8 +269,8 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "subcon.dlj.tf(subconverter作者提供1)":
-            "https://subcon.dlj.tf/sub?",
+          "heroku 自用版":
+            "https://mysubweb.herokuapp.com/sub?",
           "subconverter-web.now.sh(subconverter作者提供2-稳定)":
             "https://subconverter-web.now.sh/sub?",
           "subconverter.herokuapp.com(subconverter作者提供3-稳定)":
@@ -281,7 +281,7 @@ export default {
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
-          { value: "https://subcon.dlj.tf/sub?" },
+          { value: "https://mysubweb.herokuapp.com/sub?" },
           { value: "https://subconverter-web.now.sh/sub?" },
           { value: "https://subconverter.herokuapp.com/sub?" },
           { value: "https://api.wcc.best/sub?" }
@@ -291,8 +291,8 @@ export default {
             label: "默认",
             options: [
               {
-                label: "不选，由接口提供方提供",
-                value: ""
+                label: "https://mysubweb.herokuapp.com/sub?",
+                value: "https://mysubweb.herokuapp.com/sub?"
               }
             ]
           },
