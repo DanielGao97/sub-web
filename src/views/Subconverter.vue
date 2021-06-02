@@ -291,7 +291,7 @@ export default {
             label: "默认",
             options: [
               {
-                label: "https://mysubweb.herokuapp.com/sub?",
+                label: "heroku 自用版",
                 value: "https://mysubweb.herokuapp.com/sub?"
               }
             ]
